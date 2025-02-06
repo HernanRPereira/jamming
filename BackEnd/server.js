@@ -12,10 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // Conectar a MongoDB
-mongoose.connect(MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-})
+mongoose.connect(MONGO_URI)
 .then(() => console.log("✅ Conectado a MongoDB"))
 .catch(err => console.error("❌ Error de conexión a MongoDB:", err));
 

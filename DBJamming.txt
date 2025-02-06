@@ -5,3 +5,5 @@ Jamming2025
 
 
 mongodb+srv://Jamming:Jamming2025@jammingnfc.c1xlu.mongodb.net/
+
+mongodb+srv://Jamming:Jamming2025@jammingnfc.c1xlu.mongodb.net/?retryWrites=true&w=majority&appName=JammingNFC
